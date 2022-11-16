@@ -328,7 +328,7 @@ push "rcvbuf 393216"
 tun-mtu 1400 
 mssfix 1360
 verb 3
-script-security 2
+script-security 3
 cipher AES-128-CBC
 tcp-nodelay
 up /etc/openvpn/update-resolv-conf                                                                                      
@@ -363,7 +363,7 @@ mssfix 1360
 verb 3
 cipher AES-128-CBC
 tcp-nodelay
-script-security 2
+script-security 3
 up /etc/openvpn/update-resolv-conf                                                                                      
 down /etc/openvpn/update-resolv-conf
 EOF
